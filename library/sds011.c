@@ -22,7 +22,6 @@
  *
  */
 
-
 /**
  *   Library initialization.
  *
@@ -35,8 +34,6 @@ sds->huart_sds=(UART_HandleTypeDef *)huart_sds;
 HAL_UART_Transmit(sds->huart_sds,(uint8_t*)Sds011_WorkingMode, 19,30);
 HAL_UART_Receive_IT(sds->huart_sds, sds->data_receive, 10);
 }
-
-
 
 /**
  *   Calculation of the checksum
@@ -51,7 +48,6 @@ uint8_t getCRC(uint8_t buff[]) {
   }
   return crc;
 }
-
 
 /**
  *   Enter the device into sleep mode
@@ -128,10 +124,3 @@ void sds_uart_RxCpltCallback(SDS* sds, UART_HandleTypeDef *huart)
 			HAL_UART_Receive_IT(sds->huart_sds, sds->data_receive, 10);
 		}
 }
-
-
-
-
-
-
-
