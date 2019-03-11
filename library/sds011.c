@@ -128,10 +128,3 @@ void sds_uart_RxCpltCallback(SDS* sds, UART_HandleTypeDef *huart)
 			HAL_UART_Receive_IT(sds->huart_sds, sds->data_receive, 10);
 		}
 }
-
-
-
-
-
-
-
