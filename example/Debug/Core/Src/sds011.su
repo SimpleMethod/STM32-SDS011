@@ -1,0 +1,8 @@
+sds011.c:32:6:sdsInit	16	static
+sds011.c:47:9:getCRC	0	static
+sds011.c:62:8:sdsSleepMode	8	static
+sds011.c:73:8:sdsWorkingMode	8	static
+sds011.c:86:8:sdsSend	8	static
+sds011.c:97:10:sdsGetPm2_5	0	static
+sds011.c:108:10:sdsGetPm10	0	static
+sds011.c:119:6:sds_uart_RxCpltCallback	4	static
