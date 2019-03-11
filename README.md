@@ -1,4 +1,4 @@
-# STM32-SDS011
+# STM32 SDS011
 Library supporting SDS011 sensor on STM32F4 (NUCLEO-F411RE)
 
 ### Usage
