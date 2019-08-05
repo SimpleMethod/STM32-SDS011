@@ -2,8 +2,7 @@
  * sds011.h
  *
  *  Created on: 10.03.2019
- *      Author: SimpleMethof
- * @attention
+ *      Author: SimpleMethod
  *
  *Copyright 2019 SimpleMethod
  *
@@ -24,8 +23,8 @@
  *LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  *OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  *THE SOFTWARE.
- ******************************************************************************
- */
+******************************************************************************
+*/
 
 #ifndef INC_SDS011_H_
 #define INC_SDS011_H_

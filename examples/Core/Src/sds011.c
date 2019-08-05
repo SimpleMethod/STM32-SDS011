@@ -2,8 +2,7 @@
  * sds011.c
  *
  *  Created on: 10.03.2019
- *      Author: Pathfinder
- * @attention
+ *      Author: SimpleMethod
  *
  *Copyright 2019 SimpleMethod
  *
@@ -24,9 +23,9 @@
  *LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  *OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  *THE SOFTWARE.
- ******************************************************************************
- */
- 
+******************************************************************************
+*/
+
 
 #include "sds011.h"
 
@@ -151,10 +150,3 @@ void sds_uart_RxCpltCallback(SDS* sds, UART_HandleTypeDef *huart)
 			HAL_UART_Receive_IT(sds->huart_sds, sds->data_receive, 10);
 		}
 }
-
-
-
-
-
-
-
