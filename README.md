@@ -16,7 +16,7 @@ SDS sds;
 /* USER CODE END 2 */
 ```
 
-3. Addition HAL_UART_RxCpltCallback
+3. Addition HAL_UART_RxCpltCallback in main file
 ```cpp
 /* USER CODE BEGIN 4 */
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
